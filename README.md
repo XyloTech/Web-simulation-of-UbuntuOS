@@ -1,115 +1,63 @@
-# 🧩 Web Simulation of Ubuntu OS
+# Web simulation of UbuntuOS
 
-A personal portfolio website themed like **Ubuntu 20.04**, built using **Next.js** and **Tailwind CSS**.
+This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
+If you want to edit this. Clone this project and edit the files in `/src/components`.
 
----
+To run this on localhost
+type `npm start` and when u are done coding type `npm run build` to build your app.
 
-## 🚀 Getting Started
+_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
 
-### 🔧 Installation
+<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/web-simulation-of-ubuntuos.git
-   cd web-simulation-of-ubuntuos
-Install Dependencies
+### To make the contact form work
 
-bash
-Copy
-Edit
-npm install
-# or
-yarn install
-Start the Development Server
+- Create a account in [emailjs](https://www.emailjs.com/) create also new Outlook or Gmail account to be able
+  to send email.
+- Create a new service, select and log in to your newly created outlook or gmail account on EmailJS.
+- Go back to the dashboard and get the Service ID copy it.
+- Create a .env file in your root folder and put
 
-bash
-Copy
-Edit
-npm start
-# or
-yarn start
-Build for Production
+```
 
-bash
-Copy
-Edit
-npm run build
-# or
-yarn build
-The app runs on http://localhost:3000. It reloads on save and displays lint errors in the console.
+NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
+NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
+NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 
-📁 Project Structure
-All editable components are located in:
+```
 
-bash
-Copy
-Edit
-/src/components
-✉️ Contact Form Integration (EmailJS)
-To make the contact form work:
+into it. Replace \*your user id and your service ID with your values in your EmailJS service.
 
-Create an account on EmailJS.
+## Star History
 
-Create a new Outlook or Gmail account to use for sending emails.
+[![Star History Chart](https://api.star-history.com/svg?repos=vivek9patel/vivek9patel.github.io&type=Date)](https://star-history.com/#vivek9patel/vivek9patel.github.io&Date)
 
-In your EmailJS dashboard:
+## This project was made using Create Next App! Here is the scripts that u can run.
 
-Create a new Email Service and link it to your email.
+### `npm start`
 
-Create a new Email Template (or use template_fqqqb9g).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Note your Service ID, User ID, and Template ID.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Create a .env file in your project root and add:
+### `npm run build`
 
-env
-Copy
-Edit
-NEXT_PUBLIC_USER_ID='YOUR_USER_ID'
-NEXT_PUBLIC_TEMPLATE_ID='template_fqqqb9g'
-NEXT_PUBLIC_SERVICE_ID='YOUR_SERVICE_ID'
-Replace the placeholders with actual values from your EmailJS dashboard.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-🧱 Building and Deployment
-bash
-Copy
-Edit
-npm run build
-# or
-yarn build
-This builds the app for production. Files will be optimized, minified, and ready for deployment.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-🤝 Contributing
-Contributions make the open-source community amazing! Any improvements or suggestions are welcome.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To contribute:
-Fork the project
+## Contributing
 
-Create your feature branch
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
 
-bash
-Copy
-Edit
-git checkout -b feature/AmazingFeature
-Commit your changes
-
-bash
-Copy
-Edit
-git commit -m 'Add AmazingFeature'
-Push to the branch
-
-bash
-Copy
-Edit
-git push origin feature/AmazingFeature
-Open a Pull Request
-
-🧑‍💻 Made by xylotech.in
-vbnet
-Copy
-Edit
-
-
-Let me know if you'd like a version with badges (e.g., build passing, license, etc.) or if you want to auto-generate a Table of Contents!
-https://vivek9patel.github.io/
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
